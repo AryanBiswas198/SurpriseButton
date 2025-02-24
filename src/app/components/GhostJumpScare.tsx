@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function GhostJumpScare() {
@@ -9,5 +10,5 @@ export default function GhostJumpScare() {
     setTimeout(() => setShow(false), 2000);
   }, []);
 
-  return show ? <img src="/scary-face.png" className="fixed inset-0 w-full h-full" /> : null;
+  return show ? <Image src="/scary-face.png" alt="scaryFace" className="fixed inset-0 w-full h-full" /> : null;
 }

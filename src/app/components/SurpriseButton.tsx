@@ -1,10 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
-import BlackHoleEffect from "./BlackHole";
 import ConfettiEffect from "./ConfettiEffect";
 import FlipPage from "./FlipPage";
-import Earthquake from "./EarthquakeEffect";
+import Image from "next/image";
 
 const effects: React.ReactElement[] = [
 //   <BlackHoleEffect key="blackhole" />,
@@ -72,7 +71,9 @@ export default function SurpriseButton() {
             transition: "opacity 0.1s ease-in-out",
           }}
         >
-          <img
+          <Image
+            width={500}
+            height={600}
             src="https://spng.hippopng.com/20180920/ytr/kisspng-the-nun-demon-nun-valac-painting-the-conjuring-5ba3aefdebcca6.8856533715374538219658.jpg"
             alt="Ghost"
             className="w-full h-full object-cover rounded-full"

@@ -6,7 +6,6 @@ export default function Earthquake() {
     const startEarthquake = () => {
       const intensityBody = 100; 
       const intensityElements = 50; 
-      const rotationIntensity = 20; 
       const duration = 5000; 
 
       document.body.style.transform = "translate(0,0) rotate(0)";
