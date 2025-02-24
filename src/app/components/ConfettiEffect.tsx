@@ -31,7 +31,7 @@ export default function ConfettiRickRoll() {
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-black bg-opacity-80 z-50">
-      <h1 className="text-white text-3xl font-bold mb-4">You've been blessed by the LORDD 😉</h1>
+      <h1 className="text-white text-3xl font-bold mb-4">{`You have been blessed by the LORDD 😉`}</h1>
 
       <iframe
         width="560"

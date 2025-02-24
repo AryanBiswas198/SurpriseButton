@@ -7,6 +7,7 @@ export default function FlipEffectWithDialogs() {
   const [isPlaying, setIsPlaying] = useState(false);
   const alertSound = new Audio("/sounds/erro.mp3");
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const handleUserInteraction = () => {
       startDialogEffect();

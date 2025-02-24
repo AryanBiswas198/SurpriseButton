@@ -15,7 +15,7 @@ export default function Earthquake() {
         }
       });
 
-      let interval = setInterval(() => {
+      const interval = setInterval(() => {
         const xBody = (Math.random() - 0.5) * intensityBody * 2;
         const yBody = (Math.random() - 0.5) * intensityBody * 2;
         const rotateBody = (Math.random() - 0.5) * 20;
